@@ -130,7 +130,7 @@ class SideBar extends Component {
                      </Link>
                      <ul >
                         <li>
-                           <Link to="/">Dashboard</Link>
+                           <Link to="/h">Dashboard</Link>
                         </li>
 
                         {/*<li>*/}
@@ -150,6 +150,62 @@ class SideBar extends Component {
                         {/*</li>*/}
                      </ul>
                   </li>
+
+
+
+
+
+
+                  <li
+                     className={`${
+                        deshBoard.includes(path.slice(1)) ? "mm-active" : ""
+                     }`}
+                  >
+                     <Link
+                        className="has-arrow ai-icon"
+                        to="#"
+                        
+                     >
+                        <i className="flaticon-381-networking"></i>
+                        <span className="nav-text">Store</span>
+                     </Link>
+                     <ul >
+                        <li>
+                           <Link to="/">Store Dashboard</Link>
+                        </li>
+                        <li>
+
+                           <Link to="/recive-items">Reciving Items</Link>
+                        </li>
+                        <li>
+                           <Link to="/issue-items">Issue Items</Link>
+                        </li>
+
+                        {/*<li>*/}
+                        {/*   <Link to="analytics">Analytics</Link>*/}
+                        {/*</li>*/}
+						{/*<li>*/}
+                        {/*   <Link to="review">Review</Link>*/}
+                        {/*</li>*/}
+						{/*<li>*/}
+                        {/*   <Link to="order">Order</Link>*/}
+                        {/*</li>*/}
+						{/*<li>*/}
+                        {/*   <Link to="order-list">Order List</Link>*/}
+                        {/*</li>*/}
+						{/*<li>*/}
+                        {/*   <Link to="customer-list">Customer List</Link>*/}
+                        {/*</li>*/}
+                     </ul>
+                  </li>
+
+
+
+
+
+
+
+
                   <li
                      className={`${
                         app.includes(path.slice(1)) ? "mm-active" : ""
@@ -160,7 +216,7 @@ class SideBar extends Component {
                         to="#"
                      >
                         <i className="flaticon-381-television"></i>
-                        <span className="nav-text">Inventory</span>
+                        <span className="nav-text">Inventorys</span>
                      </Link>
                      <ul >
                         <li>
@@ -175,9 +231,9 @@ class SideBar extends Component {
                         <li>
                            <Link to="/email-compose">Inventory Settings</Link>
                         </li>
-                        {/*<li>*/}
-                        {/*   <Link to="/app-profile">Profile</Link>*/}
-                        {/*</li>*/}
+                        <li>
+                           <Link to="/app-profile">Profile</Link>
+                        </li>
                         {/*<li>*/}
                         {/*   <Link*/}
                         {/*      className="has-arrow"*/}
@@ -496,7 +552,7 @@ class SideBar extends Component {
 				{/*<div className="plus-box">*/}
 				{/*	<p className="fs-13 font-w300 mb-4">Organize your menus through button bellow</p>*/}
 				{/*	<Link className="btn bg-white text-black btn-rounded d-block" to="#">+Add Menus</Link>*/}
-				{/*</div>*/}
+				{/*</div> */}
                <div className="copyright">
                   <p>
                      <strong>Wase Bar & Restaurant</strong> ©All Rights Reserved

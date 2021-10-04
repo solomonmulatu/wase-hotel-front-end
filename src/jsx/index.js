@@ -32,7 +32,7 @@ import Review from "./components/Dashboard/Review/Review";
 import Order from "./components/Dashboard/Order/Order";
 import Orderlist from "./components/Dashboard/Orderlist/Orderlist";
 import Customerlist from "./components/Dashboard/Customerlist/Customerlist";
-
+import RecivingItems from "./components/Dashboard/RecivingItems/RecivingItems";
 /// Bo
 import UiAlert from "./components/bootstrap/Alert";
 import UiAccordion from "./components/bootstrap/Accordion";
@@ -98,6 +98,10 @@ import RechartJs from "./components/charts/rechart";
 
 const Markup = () => {
    const routes = [
+	   
+	    /// Side Bar
+		{url: "recive-items", component: RecivingItems},
+
 		/// Deshborad
 		{ url: "", component: Home },
 		{ url: "companies", component: Companies },
@@ -107,6 +111,8 @@ const Markup = () => {
 		{ url: "order-list", component: Orderlist },
 		{ url: "customer-list", component: Customerlist },
 		/// Bootstrap
+
+		
 		{ url: "ui-alert", component: UiAlert },
 		{ url: "ui-badge", component: UiBadge },
 		{ url: "ui-button", component: UiButton },

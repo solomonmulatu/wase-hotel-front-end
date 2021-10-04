@@ -82,6 +82,8 @@ import RechartJs from "../components/charts/rechart";
 
 const Routes = () => {
    const routes = [
+      ///SideBar
+      {url: "recive-items", componenet: Orderlist},
       /// Deshborad
       { url: "", component: Home },
       { url: "application", component: Application },
