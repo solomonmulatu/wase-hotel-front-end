@@ -171,7 +171,7 @@ class SideBar extends Component {
                      </Link>
                      <ul >
                         <li>
-                           <Link to="/">Store Dashboard</Link>
+                           <Link to="/store-dashboard">Store Dashboard</Link>
                         </li>
                         <li>
 

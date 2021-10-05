@@ -33,6 +33,8 @@ import Order from "./components/Dashboard/Order/Order";
 import Orderlist from "./components/Dashboard/Orderlist/Orderlist";
 import Customerlist from "./components/Dashboard/Customerlist/Customerlist";
 import RecivingItems from "./components/Dashboard/RecivingItems/RecivingItems";
+import IssueItems from "./components/Dashboard/IssueItems/IssueItems";
+import StoreDashboard from "./components/Dashboard/StoreDashboard/StoreDashboard";
 /// Bo
 import UiAlert from "./components/bootstrap/Alert";
 import UiAccordion from "./components/bootstrap/Accordion";
@@ -101,6 +103,8 @@ const Markup = () => {
 	   
 	    /// Side Bar
 		{url: "recive-items", component: RecivingItems},
+		{url: "issue-items", component: IssueItems},
+		{url: "store-dashboard", component: StoreDashboard},
 
 		/// Deshborad
 		{ url: "", component: Home },
