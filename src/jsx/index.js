@@ -35,6 +35,8 @@ import Customerlist from "./components/Dashboard/Customerlist/Customerlist";
 import RecivingItems from "./components/Dashboard/RecivingItems/RecivingItems";
 import IssueItems from "./components/Dashboard/IssueItems/IssueItems";
 import StoreDashboard from "./components/Dashboard/StoreDashboard/StoreDashboard";
+import AddCategory from "./components/Dashboard/AddCategory/AddCategory";
+import AddProduct from "./components/Dashboard/AddProduct/AddProduct";
 /// Bo
 import UiAlert from "./components/bootstrap/Alert";
 import UiAccordion from "./components/bootstrap/Accordion";
@@ -97,7 +99,7 @@ import MainSweetAlert from "./components/PluginsMenu/Sweet Alert/SweetAlert";
 import Toastr from "./components/PluginsMenu/Toastr/Toastr";
 import JqvMap from "./components/PluginsMenu/Jqv Map/JqvMap";
 import RechartJs from "./components/charts/rechart";
-
+import BasicDatatable from "../jsx/components/table/BootstrapTable"
 const Markup = () => {
    const routes = [
 	   
@@ -105,9 +107,11 @@ const Markup = () => {
 		{url: "recive-items", component: RecivingItems},
 		{url: "issue-items", component: IssueItems},
 		{url: "store-dashboard", component: StoreDashboard},
+		{url: "add-category", component: AddCategory},
+		{url: "add-product", component: AddProduct},
 
 		/// Deshborad
-		{ url: "", component: Home },
+		{ url: "", component: BasicDatatable },
 		{ url: "companies", component: Companies },
 		{ url: "analytics", component: Analytics },
 		{ url: "review", component: Review },

@@ -202,6 +202,35 @@ class SideBar extends Component {
 
 
 
+                  
+
+                  <li
+                     className={`${
+                        deshBoard.includes(path.slice(1)) ? "mm-active" : ""
+                     }`}
+                  >
+                     <Link
+                        className="has-arrow ai-icon"
+                        to="#"
+                        
+                     >
+                        <i className="flaticon-381-networking"></i>
+                        <span className="nav-text">Product</span>
+                     </Link>
+                     <ul >
+                        <li>
+                           <Link to="/add-category">Manage Category</Link>
+                        </li>
+                        <li>
+
+                           <Link to="/add-product">Manage Product</Link>
+                        </li>
+                        
+                     </ul>
+                  </li>
+
+
+
 
 
 
