@@ -37,6 +37,10 @@ import IssueItems from "./components/Dashboard/IssueItems/IssueItems";
 import StoreDashboard from "./components/Dashboard/StoreDashboard/StoreDashboard";
 import AddCategory from "./components/Dashboard/AddCategory/AddCategory";
 import AddProduct from "./components/Dashboard/AddProduct/AddProduct";
+///Waiter
+import WaiterDashboard from "./components/Dashboard/Waiter/WaiterDashboard/WaiterDashBoard";
+
+
 /// Bo
 import UiAlert from "./components/bootstrap/Alert";
 import UiAccordion from "./components/bootstrap/Accordion";
@@ -99,16 +103,19 @@ import MainSweetAlert from "./components/PluginsMenu/Sweet Alert/SweetAlert";
 import Toastr from "./components/PluginsMenu/Toastr/Toastr";
 import JqvMap from "./components/PluginsMenu/Jqv Map/JqvMap";
 import RechartJs from "./components/charts/rechart";
-import BasicDatatable from "../jsx/components/table/BootstrapTable"
+// import BasicDatatable from "../jsx/components/table/BootstrapTable";
+import BasicDatatable from "../jsx/components/table/BootstrapTable";
 const Markup = () => {
    const routes = [
 	   
+
 	    /// Side Bar
 		{url: "recive-items", component: RecivingItems},
 		{url: "issue-items", component: IssueItems},
 		{url: "store-dashboard", component: StoreDashboard},
 		{url: "add-category", component: AddCategory},
 		{url: "add-product", component: AddProduct},
+		{url: "waiter", component: WaiterDashboard},
 
 		/// Deshborad
 		{ url: "", component: BasicDatatable },

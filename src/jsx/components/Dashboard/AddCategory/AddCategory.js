@@ -18,7 +18,7 @@ function AddCategory() {
                     <h4 className="card-title">Category Register</h4>
                 </div>
                 <div className="card-body">
-                    <div className="basic-form" style={{display: "flex"}}>
+                    <div className="basic-form" style={{ display: "flex" }}>
                         <div className="col-sm-4">
                             <form onSubmit={(e) => e.preventDefault()}>
                                 <div className="form-row">
